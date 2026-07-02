@@ -1,61 +1,80 @@
-
 ![Profile views](https://komarev.com/ghpvc/?username=dbkernel&color=blueviolet&style=flat-square)
 
 <div align="center">
 
-## Hi 👋, I'm Wenshuang Lu
+## Hi 👋, I'm Wenshuang Lu (卢文双)
 
-### A Senior Database Software Development Engineer From China
+### Senior Database Kernel Engineer · Building Cloud-Native Distributed Databases
 
 </div>
 
-<p align="left">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://gh-trophy.cdnsoft.net/?username=dbkernel" alt="trophy" />
-  </a>
-</p>
+---
 
-- 💬 Ask me about **[here](https://github.com/dbkernel/dbkernel/issues)**
+🔭 **Currently working on** cloud-native MySQL kernel R&D — storage engines, replication, query optimization
 
-<h3 align="left">Languages and Tools:</h3>
+🧠 **Background** in Postgres-XC, Greenplum, and mainstream RDBMS internals (MySQL / PostgreSQL / ClickHouse)
+
+📝 **Technical blog** → [dbkernel.com](https://dbkernel.com) · [dbkernel.github.io](https://dbkernel.github.io/)
+
+💬 **Ask me about** database internals → [open an issue](https://github.com/dbkernel/dbkernel/issues)
+
+---
+
+### 🚀 Featured Projects
+
+| Project | Description |
+|---------|-------------|
+| [radondb/radon](https://github.com/radondb/radon) | Distributed database |
+| [radondb/xenon](https://github.com/radondb/xenon) | MySQL HA with Raft-based replication |
+| [sealdb/sealdb](https://github.com/sealdb/sealdb) | HTAP database (storage-compute separation) |
+| [sealdb/neodb](https://github.com/sealdb/neodb) | Storage engine layer |
+| [sealdb/neosql](https://github.com/sealdb/neosql) | SQL / query layer |
+| [sealdb/neoha](https://github.com/sealdb/neoha) | High availability component |
+
+---
+
+### 📚 Latest Writing
+
+- [MySQL 生态现有计算下推方案汇总](https://dbkernel.com) *(2024)*
+- [MySQL 测试框架 MTR 系列教程](https://dbkernel.github.io/) *(2023, 4-part series)*
+- [业内 MySQL 线程池主流方案详解](https://dbkernel.github.io/) *(MariaDB / Percona / AliSQL / TXSQL)*
+
+📖 [All articles →](https://dbkernel.github.io/)
+
+---
+
+### 🛠 Tech Stack
+
 <p align="left">
-  <a href="https://www.linux.org/" target="_blank"> <img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/linux.svg" alt="linux" width="50" height="50"/> </a>
-  <a href="https://www.docker.com/" target="_blank"> <img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/docker.svg" alt="docker" width="50" height="50"/> </a>
-  <a href="https://kubernetes.io" target="_blank"><img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/kubernetes.svg" alt="kubernetes" width="50" height="50"/> </a>
-</p>
-<p align="left">
-  <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/cplusplus.svg" alt="c" width="50" height="50"/> </a>
-  <a href="https://golang.org" target="_blank"> <img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/golang.svg" alt="go" width="50" height="50"/> </a>
-  <a href="https://www.python.org" target="_blank"> <img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/python.svg" alt="python" width="50" height="50"/> </a>
-  <a href="https://www.rust-lang.org/" target="_blank"> <img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/rust.svg" alt="rust" width="50" height="50"/></a>
-</p>
-<p align="left">
+  <a href="https://www.linux.org/" target="_blank"><img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/linux.svg" alt="linux" width="50" height="50"/></a>
+  <a href="https://www.docker.com/" target="_blank"><img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/docker.svg" alt="docker" width="50" height="50"/></a>
+  <a href="https://kubernetes.io" target="_blank"><img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/kubernetes.svg" alt="kubernetes" width="50" height="50"/></a>
+  <a href="https://www.cprogramming.com/" target="_blank"><img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/cplusplus.svg" alt="c++" width="50" height="50"/></a>
+  <a href="https://golang.org" target="_blank"><img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/golang.svg" alt="go" width="50" height="50"/></a>
+  <a href="https://www.python.org" target="_blank"><img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/python.svg" alt="python" width="50" height="50"/></a>
+  <a href="https://www.rust-lang.org/" target="_blank"><img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/rust.svg" alt="rust" width="50" height="50"/></a>
   <a href="https://www.mysql.com/" target="_blank"><img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/mysql.svg" alt="MySQL" width="50" height="50"/></a>
+  <a href="https://www.postgresql.org/" target="_blank"><img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/postgresql.svg" alt="PostgreSQL" width="50" height="50"/></a>
+  <a href="https://clickhouse.tech/" target="_blank"><img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/clickhouse.svg" alt="ClickHouse" width="50" height="50"/></a>
   <a href="https://redis.io/" target="_blank"><img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/redis.svg" alt="Redis" width="50" height="50"/></a>
-  <a href="https://www.postgresql.org/" target="_blank"> <img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/postgresql.svg" alt="PostgreSQL" width="50" height="50"/></a>
-  <a href="https://clickhouse.tech/" target="_blank"> <img src="https://dbkernel-1306518848.cos.ap-beijing.myqcloud.com/icons/clickhouse.svg" alt="ClickHouse" width="50" height="50"/></a>
 </p>
 
-<p><img align="center" src="https://github-readme-stats-alpha-vert.vercel.app/api/top-langs?username=dbkernel&show_icons=true&locale=en&layout=compact&count_private=true&theme=radical" alt="Top Languages" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats-alpha-vert.vercel.app/api?username=dbkernel&show_icons=true&locale=en&count_private=true&theme=radical" alt="GitHub Stats" /></p>
+### 📊 GitHub Stats
 
-<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=dbkernel&count_private=true&theme=radical" alt="GitHub Streak" /></p>
+<p align="center">
+  <img src="https://gh-trophy.cdnsoft.net/?username=dbkernel" alt="trophy" />
+</p>
 
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=dbkernel&layout=compact&theme=radical&langs_count=8" alt="Top Languages" />
+</p>
 
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=dbkernel&show_icons=true&theme=radical" alt="GitHub Stats" />
+</p>
 
-
-<!--
-**dbkernel/dbkernel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dbkernel&theme=radical" alt="GitHub Streak" />
+</p>
