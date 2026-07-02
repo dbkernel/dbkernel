@@ -24,12 +24,12 @@
 
 | Project | Description |
 |---------|-------------|
-| [radondb/radon](https://github.com/radondb/radon) | Distributed database |
-| [radondb/xenon](https://github.com/radondb/xenon) | MySQL HA with Raft-based replication |
-| [sealdb/sealdb](https://github.com/sealdb/sealdb) | HTAP database (storage-compute separation) |
+| [sealdb/neosql](https://github.com/sealdb/neosql) | **MySQL-kernel-based** database with enterprise features — columnar storage, HTAP, and cloud-native enhancements |
+| [sealdb/sealdb](https://github.com/sealdb/sealdb) | SealDB platform — storage-compute separation, unified OLTP + OLAP |
 | [sealdb/neodb](https://github.com/sealdb/neodb) | Storage engine layer |
-| [sealdb/neosql](https://github.com/sealdb/neosql) | SQL / query layer |
 | [sealdb/neoha](https://github.com/sealdb/neoha) | High availability component |
+| [radondb/radon](https://github.com/radondb/radon) | Distributed SQL database |
+| [radondb/xenon](https://github.com/radondb/xenon) | MySQL HA with Raft-based replication |
 
 ---
 
