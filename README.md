@@ -20,16 +20,59 @@
 
 ---
 
-### 🚀 Featured Projects
+### 🏗 Projects
+
+#### SealDB — Enterprise Database Platform
 
 | Project | Description |
 |---------|-------------|
-| [sealdb/neosql](https://github.com/sealdb/neosql) | **MySQL-kernel-based** database with enterprise features — columnar storage, HTAP, and cloud-native enhancements |
-| [sealdb/sealdb](https://github.com/sealdb/sealdb) | SealDB platform — storage-compute separation, unified OLTP + OLAP |
-| [sealdb/neodb](https://github.com/sealdb/neodb) | Storage engine layer |
-| [sealdb/neoha](https://github.com/sealdb/neoha) | High availability component |
+| [sealdb/neosql](https://github.com/sealdb/neosql) | MySQL-kernel-based fork with enterprise features — columnar storage, HTAP |
+| [sealdb/neodb](https://github.com/sealdb/neodb) | Enhanced [radon](https://github.com/radondb/radon) with **distributed transactions** and **read/write consistency** |
+| [sealdb/neoha](https://github.com/sealdb/neoha) | Enhanced [xenon](https://github.com/radondb/xenon) — **MySQL & PostgreSQL HA**, consensus via **Raft** and **etcd** |
+| [sealdb/sealdb](https://github.com/sealdb/sealdb) | SealDB platform — unified OLTP + OLAP, storage-compute separation |
+
+#### RadonDB — Foundation
+
+| Project | Description |
+|---------|-------------|
 | [radondb/radon](https://github.com/radondb/radon) | Distributed SQL database |
-| [radondb/xenon](https://github.com/radondb/xenon) | MySQL HA with Raft-based replication |
+| [radondb/xenon](https://github.com/radondb/xenon) | MySQL high availability with Raft-based replication |
+
+---
+
+### 🏗 Project Evolution
+
+```mermaid
+flowchart TB
+    subgraph Foundation["RadonDB Foundation"]
+        radon["radondb/radon<br/><i>Distributed SQL</i>"]
+        xenon["radondb/xenon<br/><i>MySQL HA / Raft</i>"]
+    end
+
+    subgraph Kernel["Kernel Track"]
+        mysql["MySQL Kernel"]
+        neosql["sealdb/neosql<br/><i>Enterprise · Columnar · HTAP</i>"]
+    end
+
+    subgraph SealDB["SealDB Enhancements"]
+        neodb["sealdb/neodb<br/><i>Distributed Txn · Consistency</i>"]
+        neoha["sealdb/neoha<br/><i>MySQL + PG HA · Raft / etcd</i>"]
+    end
+
+    sealdb["sealdb/sealdb<br/><b>Unified Platform</b><br/><i>OLTP + OLAP · Storage-Compute Separation</i>"]
+
+    mysql --> neosql
+    radon -->|"enhance"| neodb
+    xenon -->|"enhance"| neoha
+    neosql --> sealdb
+    neodb --> sealdb
+    neoha --> sealdb
+
+    style sealdb fill:#1a1a2e,stroke:#fe428e,stroke-width:2px,color:#fff
+    style neosql fill:#16213e,stroke:#4ecca3,color:#fff
+    style neodb fill:#16213e,stroke:#4ecca3,color:#fff
+    style neoha fill:#16213e,stroke:#4ecca3,color:#fff
+```
 
 ---
 
