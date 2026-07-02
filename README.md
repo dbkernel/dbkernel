@@ -12,7 +12,7 @@
 
 🔭 **Currently working on** cloud-native MySQL kernel R&D — storage engines, replication, query optimization
 
-🧠 **Background** in Postgres-XC, Greenplum, and mainstream RDBMS internals (MySQL / PostgreSQL / ClickHouse)
+🧠 **Background** in Postgres-XC, Greenplum, RadonDB, ClickHouse, and mainstream RDBMS internals (MySQL / PostgreSQL)
 
 📝 **Technical blog** → [dbkernel.com](https://dbkernel.com) · [dbkernel.github.io](https://dbkernel.github.io/)
 
