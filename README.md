@@ -28,6 +28,7 @@
 |---------|-------------|
 | [sealdb/neosql](https://github.com/sealdb/neosql) | MySQL-kernel-based fork with enterprise features — columnar storage, HTAP |
 | [sealdb/neodb](https://github.com/sealdb/neodb) | Enhanced [radon](https://github.com/radondb/radon) with **distributed transactions** and **read/write consistency** |
+| [sealdb/metatroni](https://github.com/sealdb/metatroni) | Enhanced [patroni](https://github.com/patroni/patroni) — **MySQL & PostgreSQL HA** |
 | [sealdb/neoha](https://github.com/sealdb/neoha) | Enhanced [xenon](https://github.com/radondb/xenon) — **MySQL & PostgreSQL HA**, consensus via **Raft** and **etcd** |
 | [sealdb/sealdb](https://github.com/sealdb/sealdb) | SealDB platform — unified OLTP + OLAP, storage-compute separation |
 
