@@ -1,4 +1,3 @@
-![Profile views](https://komarev.com/ghpvc/?username=dbkernel&color=blueviolet&style=flat-square)
 
 <div align="center">
 
@@ -30,7 +29,7 @@
 | [sealdb/neodb](https://github.com/sealdb/neodb) | Enhanced [radon](https://github.com/radondb/radon) with **distributed transactions** and **read/write consistency** |
 | [sealdb/metatroni](https://github.com/sealdb/metatroni) | Enhanced [patroni](https://github.com/patroni/patroni) — **MySQL & PostgreSQL HA** |
 | [sealdb/neoha](https://github.com/sealdb/neoha) | Enhanced [xenon](https://github.com/radondb/xenon) — **MySQL & PostgreSQL HA**, consensus via **Raft** and **etcd** |
-| [sealdb/sealdb](https://github.com/sealdb/sealdb) | SealDB platform — unified OLTP + OLAP, storage-compute separation |
+| [sealdb/sealdb](https://github.com/sealdb/sealdb) | SealDB platform — Rewrite TiDB compute layer node in Rust, unified OLTP + OLAP, storage-compute separation |
 
 #### RadonDB — Foundation
 
@@ -38,6 +37,12 @@
 |---------|-------------|
 | [radondb/radon](https://github.com/radondb/radon) | Distributed SQL database |
 | [radondb/xenon](https://github.com/radondb/xenon) | MySQL high availability with Raft-based replication |
+
+#### Personal Repos
+
+| Project | Description |
+|---------|-------------|
+| [dbkernel/leetcode](https://github.com/dbkernel/leetcode) | Algorithm & database related problem solutions, coding practice |
 
 ---
 
@@ -60,7 +65,7 @@ flowchart TB
         neoha["sealdb/neoha<br/><i>MySQL + PG HA · Raft / etcd</i>"]
     end
 
-    sealdb["sealdb/sealdb<br/><b>Unified Platform</b><br/><i>OLTP + OLAP · Storage-Compute Separation</i>"]
+    sealdb["sealdb/sealdb<br/><b>Unified Platform</b><br/><i>Rust TiDB Compute Layer · OLTP + OLAP · Storage-Compute Separation</i>"]
 
     mysql --> neosql
     radon -->|"enhance"| neodb
