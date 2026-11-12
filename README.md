@@ -113,17 +113,11 @@ flowchart TB
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://gh-trophy.cdnsoft.net/?username=dbkernel" alt="trophy" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dbkernel&theme=radical" alt="Top Languages" />
+  &nbsp;&nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=dbkernel&theme=radical&utcOffset=8" alt="Productive Time" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=dbkernel&layout=compact&theme=radical&langs_count=8" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=dbkernel&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dbkernel&theme=radical" alt="GitHub Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dbkernel&theme=radical" alt="GitHub Stats" />
 </p>
